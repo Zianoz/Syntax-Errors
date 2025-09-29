@@ -1,2 +1,2 @@
 # Syntax-Errors
-Chas Academy group project
+Chas happenings Calender app
