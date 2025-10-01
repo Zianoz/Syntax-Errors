@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chas Events", "Chas Events\Chas Events.csproj", "{041C75BF-7862-49A1-A781-26B9B2335B19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{041C75BF-7862-49A1-A781-26B9B2335B19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{041C75BF-7862-49A1-A781-26B9B2335B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{041C75BF-7862-49A1-A781-26B9B2335B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{041C75BF-7862-49A1-A781-26B9B2335B19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D63991B-7769-441F-AE0E-B176C4D4EA21}
+	EndGlobalSection
+EndGlobal
