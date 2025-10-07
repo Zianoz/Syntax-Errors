@@ -363,3 +363,38 @@ MigrationBackup/
 FodyWeavers.xsd
 
 .vs/
+
+# Custom GITIGNORE FILES
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio files
+.vs/
+
+# Environment configs
+appsettings.Development.json
+appsettings.Local.json
+
+# Logs
+*.log
+
+# Database files (local only)
+*.db
+*.sqlite
+Migrations/
+
+# Publish output
+*.Publish.xml
+publish/
+
+# Other
+*.tmp
+*.temp
