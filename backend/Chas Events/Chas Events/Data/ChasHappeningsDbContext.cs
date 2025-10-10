@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Chas_Events.Models;
+using Chas_Events.Models.ConnectionTable;
 
 namespace Chas_Events.Data
 {
@@ -12,6 +13,8 @@ namespace Chas_Events.Data
         public DbSet<Tag> Tags { get; set; }
         public DbSet<Notification> Notifications { get; set; }
         public DbSet<Comment> Comments { get; set; }
+        public DbSet<UserEventAttending> AttendingUsers { get; set; }
+        public DbSet<UserEventInterested> InterestedUsers { get; set; }
 
         //protected override void OnModelCreating(ModelBuilder modelBuilder)
         //{
