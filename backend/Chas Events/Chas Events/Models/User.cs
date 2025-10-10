@@ -1,4 +1,7 @@
-﻿namespace Chas_Events.Models
+﻿using Chas_Events.Models.ConnectionTable;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Chas_Events.Models
 {
     public class User
     {
@@ -15,8 +18,8 @@
         public string UserDescription { get; set; }
 
         public ICollection<Event> CreatedEvents { get; set; } = new List<Event>();
-        public ICollection<Event> Interested { get; set; } = new List<Event>();
-        public ICollection <Event> Attending { get; set; } = new List<Event>();
+        public ICollection<UserEventInterested> Interested { get; set; } = new List<UserEventInterested>();
+        public ICollection <UserEventAttending> Attending { get; set; } = new List<UserEventAttending>();
         public ICollection <Comment> Comments { get; set; } = new List<Comment>();
 
     }   
