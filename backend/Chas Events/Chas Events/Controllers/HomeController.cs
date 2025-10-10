@@ -1,5 +1,5 @@
 using System.Diagnostics;
-using Chas_Events.Models;
+using Chas_Events.Models.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Chas_Events.Controllers

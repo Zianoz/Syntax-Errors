@@ -1,4 +1,4 @@
-namespace Chas_Events.Models
+namespace Chas_Events.Models.ViewModel
 {
     public class ErrorViewModel
     {
