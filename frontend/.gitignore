@@ -23,6 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 
+.vs/
 
 # Node dependencies
 node_modules/
